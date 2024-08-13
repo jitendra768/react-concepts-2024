@@ -1,6 +1,7 @@
 import "./App.css";
 import ClassBaseComponent from "./Components/Class_BasedComponent";
 import FunctionalComponenet from "./Components/Functional_Component";
+import Counter from "./Components/Hooks/UseStateHook";
 import ProductList from "./Components/Products/Index";
 
 
@@ -10,9 +11,10 @@ function App() {
   return (
     <>
     <h1>React js concepts 2024</h1>
-       <ClassBaseComponent />
+       {/* <ClassBaseComponent /> */}
       {/* <FunctionalComponenet/> */}
       {/* <ProductList productList={dummyProductData} name="Jitendra" city="Delhi" /> */}
+      <Counter/>
     </>
   );
 }

@@ -53,6 +53,10 @@ class ClassBaseComponent extends Component {
     }
   }
 
+  componentWillUnmount(){
+    console.log("component will unmount")
+  }
+
   render() {
     // console.log(this.state);
     const {showText,chnageColor,count,changeCountStyle} = this.state;
