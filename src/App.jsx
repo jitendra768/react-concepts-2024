@@ -1,6 +1,7 @@
 import "./App.css";
 import ClassBaseComponent from "./Components/Class_BasedComponent";
 import FunctionalComponenet from "./Components/Functional_Component";
+import UseEffectHook from "./Components/Hooks/UseEffectHook.";
 import Counter from "./Components/Hooks/UseStateHook";
 import ProductList from "./Components/Products/Index";
 
@@ -14,7 +15,8 @@ function App() {
        {/* <ClassBaseComponent /> */}
       {/* <FunctionalComponenet/> */}
       {/* <ProductList productList={dummyProductData} name="Jitendra" city="Delhi" /> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <UseEffectHook/>
     </>
   );
 }
